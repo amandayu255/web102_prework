@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* box-shadow to 0 0 30px lightblue on .stats-container hover. */
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
